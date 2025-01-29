@@ -1,4 +1,32 @@
-# Tabuleiro de Xadrez
+# Chess Game
+>Um jogo de xadrez desenvolvido em Java, combinando gráficos AWT e Swing com elementos em Pixel Art.
+## 🎮 Características
+ - Interface intuitiva
+ - Implementação de Orientação a Objeto
+- Sistema de login para jogadores
+- Marcação visual de movimentos legais
+- Indicadores de xeque e xeque-mate
+- Camada de persistência de dados
+  
+## 📸 Screenshots
+### Menu Principal
+![Menu](/Screenshots/menuscreen.png)
+### Tela de Login
+![Login](/Screenshots/playerloginscreen.png)
+### Tabuleiro do Jogo
+![Menu](/Screenshots/gamescreen.png)
+### Sistema de Movimentos
+![Movimentos](/Screenshots/chesstablemark.png)
+### Partida em Andamento
+![Partida em Andamento](/Screenshots/chessgameprogress.png)
+## 🎨 Detalhes Técnicos
+- Tabuleiro: Desenvolvido com Java AWT
+- Interface e Elementos: Criados em Pixel Art (Aseprite)
+- Persistencia de Dados: Devido as limitações na plataforma que o código foi apresentado o uso de um Banco de Dados foi desconsiderado devido a falta de permissão de acesso, mas para simular uma coleta de dados foi usado a criação e atualização de um arquivo .txt que salva o confronto e seu vencedor em ordem cronológica 
+
+# Lógica
+
+## Lógica Matemática usada na implementação do código
 
 Um tabuleiro de xadrez é representado por uma matriz quadrada A<sub>8x8</sub> , contendo 16 peças para cada um dos dois jogadores. As peças são distribuídas da seguinte forma: 1 rei, 1 rainha, 2 torres, 2 cavalos, 2 bispos e 8 peões. Tradicionalmente, um jogador utiliza as peças de cor branca e o outro, as de cor preta. O objetivo do jogo é forçar o rei do adversário a uma posição de xeque-mate, onde ele não possui movimentos legais disponíveis para escapar da ameaça.
 
@@ -62,7 +90,5 @@ t_{70} & c_{71} & b_{72} & ra_{73} & r_{74} & b_{75} & c_{76} & t_{77} \\
 \end{bmatrix}
 $$
 
-## Ideia do Jogo:
-> A camada de persistencia de dados utilizada foi a composição de um arquivo .txt para salvar os confrontos e os seus vencedores em ordem cronológica, foi optada essa solução devido o ambiente em que o código foi rodado na apresentação
 
- Um jogo de xadrez clássico com as regras mais conhecidas sem a utilização de IA, sendo um jogo PLAYER vs PLAYER
+
