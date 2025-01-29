@@ -61,3 +61,8 @@ p_{60} & p_{61} & p_{62} & p_{63} & p_{64} & p_{65} & p_{66} & p_{67} \\
 t_{70} & c_{71} & b_{72} & ra_{73} & r_{74} & b_{75} & c_{76} & t_{77} \\
 \end{bmatrix}
 $$
+
+## Ideia do Jogo:
+> A camada de persistencia de dados utilizada foi a composição de um arquivo .txt para salvar os confrontos e os seus vencedores em ordem cronológica, foi optada essa solução devido o ambiente em que o código foi rodado na apresentação
+
+ Um jogo de xadrez clássico com as regras mais conhecidas sem a utilização de IA, sendo um jogo PLAYER vs PLAYER
