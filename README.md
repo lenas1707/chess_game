@@ -1,5 +1,7 @@
 # Chess Game
 >Um jogo de xadrez desenvolvido em Java, combinando gráficos AWT e Swing com elementos em Pixel Art.
+>Lógica de Programação, código e artes de menu feito por <https://github.com/lenas1707>
+>Requisitos e casos de uso feito por <> 
 ## 🎮 Características
  - Interface intuitiva
  - Implementação de Orientação a Objeto
